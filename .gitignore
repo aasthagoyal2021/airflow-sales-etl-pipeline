@@ -1,0 +1,10 @@
+logs/
+__pycache__/
+*.pyc
+.env
+postgres-db-volume/
+
+api_code/
+plugins/
+config/
+Dockerfile
