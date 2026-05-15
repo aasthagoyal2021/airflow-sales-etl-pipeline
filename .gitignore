@@ -9,7 +9,7 @@ plugins/
 config/
 Dockerfile
 
-dags/*.py
+dags/*
 !dags/sales_project/
 !dags/sales_project/sales_pipeline.py
 
