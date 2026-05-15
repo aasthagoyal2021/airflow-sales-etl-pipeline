@@ -8,3 +8,13 @@ api_code/
 plugins/
 config/
 Dockerfile
+
+dags/*.py
+!dags/sales_project/
+!dags/sales_project/sales_pipeline.py
+
+output_files/*.py
+!output_files/sales_project/
+!output_files/sales_project/sales_input.csv
+!output_files/sales_project/transformed_sales.csv
+
